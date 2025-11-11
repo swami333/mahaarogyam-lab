@@ -32,7 +32,7 @@ const About: React.FC = () => {
                 {/* <img src="https://picsum.photos/seed/lab1/400/300" alt="Maha-Aarogyam Reception" className="rounded-lg shadow-lg w-full h-full object-cover"/>
                 <img src="https://picsum.photos/seed/lab2/400/300" alt="Maha-Aarogyam Waiting area" className="rounded-lg shadow-lg w-full h-full object-cover"/>
                 <img src="https://picsum.photos/seed/lab3/800/300" alt="Director Shri Somnath Khedekar" className="rounded-lg shadow-lg col-span-2 w-full h-full object-cover"/> */}
-                <img src="./public/img1.jpg" alt="" className='ml-40'  />
+                <img src="/img1.jpg" alt="" className='ml-40'  />
             </div>
              <p className="text-center ml-6 mt-4 font-semibold text-gray-700">Shri Somnath Khedekar, Director</p>
           </div>

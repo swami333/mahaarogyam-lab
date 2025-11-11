@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Logo: React.FC = () => (
 
     <div className="flex items-center space-x-2">
-        <img src="./public/lab_logo.jpg" alt="" width='40px' height='40px'/>
+        <img src="/lab_logo.jpg" alt="" width='40px' height='40px'/>
         <span className="text-2xl font-bold text-gray-800">MAHA AAROGYAM</span>
     </div>
 );

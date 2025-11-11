@@ -133,10 +133,10 @@ export const HEALTH_PACKAGES: HealthPackage[] = [
 ];
 
 export const LAB_MACHINES: LabMachine[] = [
-    { name: 'BC-5380', model: 'BC-5380', type: 'Fully Auto Blood Cell Counter', features: ['Internal Bar Code Reader'], testsPerHour: '60 tests', imageUrl: './public/mach1.png' },
-    { name: 'BC-5130', model: 'BC-5130', type: 'Fully Auto Blood Cell Counter', features: ['External Bar Code Reader'], testsPerHour: '60 tests', imageUrl: './public/mach2.png' },
-    { name: 'AFT-800D', model: 'AFT-800D', type: 'Fully Auto Electrolyte Analyzer', features: ['External Bar Code Reader'], testsPerHour: '60 tests', imageUrl: './public/mach3.png' },
-    { name: 'BS-240', model: 'BS-240', type: 'Fully Auto Biochemistry Analyzer', features: ['Internal Bar Code Reader'], testsPerHour: '200 tests', imageUrl: './public/mach4.png' },
-    { name: 'BA-88', model: 'BA-88', type: 'Semi Automatic Biochemistry Analyzer', features: [], testsPerHour: '50 tests', imageUrl: './public/mach5.png' },
-    { name: 'Centaur-XP', model: 'Centaur-XP', type: 'Automatic Immunoassay Analyser', features: ['All types of Hormones', 'Cancer marker', 'Infections like HIV and Hepatitis', 'Infertility profile', 'Vitamins A, B, C, D, E'], testsPerHour: '200 tests/hr', imageUrl: './public/mach.png' },
+    { name: 'BC-5380', model: 'BC-5380', type: 'Fully Auto Blood Cell Counter', features: ['Internal Bar Code Reader'], testsPerHour: '60 tests', imageUrl: '/mach1.png' },
+    { name: 'BC-5130', model: 'BC-5130', type: 'Fully Auto Blood Cell Counter', features: ['External Bar Code Reader'], testsPerHour: '60 tests', imageUrl: '/mach2.png' },
+    { name: 'AFT-800D', model: 'AFT-800D', type: 'Fully Auto Electrolyte Analyzer', features: ['External Bar Code Reader'], testsPerHour: '60 tests', imageUrl: '/mach3.png' },
+    { name: 'BS-240', model: 'BS-240', type: 'Fully Auto Biochemistry Analyzer', features: ['Internal Bar Code Reader'], testsPerHour: '200 tests', imageUrl: '/mach4.png' },
+    { name: 'BA-88', model: 'BA-88', type: 'Semi Automatic Biochemistry Analyzer', features: [], testsPerHour: '50 tests', imageUrl: '/mach5.png' },
+    { name: 'Centaur-XP', model: 'Centaur-XP', type: 'Automatic Immunoassay Analyser', features: ['All types of Hormones', 'Cancer marker', 'Infections like HIV and Hepatitis', 'Infertility profile', 'Vitamins A, B, C, D, E'], testsPerHour: '200 tests/hr', imageUrl: '/mach.png' },
 ];
