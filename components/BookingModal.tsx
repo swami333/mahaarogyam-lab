@@ -554,7 +554,7 @@ Thank you!
 
         {/* Package Selection */}
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+          <label className="block text-sm  font-medium text-gray-700 mb-1">
             Select Package
           </label>
           <select
@@ -565,9 +565,9 @@ Thank you!
               );
               if (pkg) setCurrentPackage(pkg);
             }}
-            className="w-full border p-2 rounded"
+            className="w-full border border border-orange-600  p-2 rounded"
           >
-            <option value="">Choose...</option>
+            <option value="" >Choose...</option>
             {HEALTH_PACKAGES.map((pkg) => (
               <option key={pkg.name} value={pkg.name}>
                 {pkg.name} – ₹{pkg.discountedPrice}
@@ -586,7 +586,7 @@ Thank you!
             onChange={(e) =>
               setFormData((p) => ({ ...p, name: e.target.value }))
             }
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
           {errors.name && <p className="text-red-500 text-xs">{errors.name}</p>}
 
@@ -596,7 +596,7 @@ Thank you!
             placeholder="Age"
             value={formData.age}
             onChange={(e) => setFormData((p) => ({ ...p, age: e.target.value }))}
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
           {errors.age && <p className="text-red-500 text-xs">{errors.age}</p>}
 
@@ -608,7 +608,7 @@ Thank you!
             onChange={(e) =>
               setFormData((p) => ({ ...p, mobile: e.target.value }))
             }
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
           {errors.mobile && (
             <p className="text-red-500 text-xs">{errors.mobile}</p>
@@ -622,7 +622,7 @@ Thank you!
             onChange={(e) =>
               setFormData((p) => ({ ...p, email: e.target.value }))
             }
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
 
           <textarea
@@ -633,7 +633,7 @@ Thank you!
             onChange={(e) =>
               setFormData((p) => ({ ...p, address: e.target.value }))
             }
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
           {errors.address && (
             <p className="text-red-500 text-xs">{errors.address}</p>
@@ -645,7 +645,7 @@ Thank you!
             min={new Date().toISOString().split("T")[0]}
             value={formData.date}
             onChange={(e) => setFormData((p) => ({ ...p, date: e.target.value }))}
-            className="w-full border p-2 rounded"
+            className="w-full border border-orange-600 p-2 rounded"
           />
           {errors.date && <p className="text-red-500 text-xs">{errors.date}</p>}
         </div>
@@ -679,7 +679,7 @@ Thank you!
           <select
             value={useOptionB ? "B" : "A"}
             onChange={(e) => setUseOptionB(e.target.value === "B")}
-            className="w-full border p-2 rounded"
+            className="w-full border border border-orange-600 p-2 rounded"
           >
             <option value="A">
               Option A – Upload via Cloudinary (Recommended)
@@ -699,7 +699,7 @@ Thank you!
             type="file"
             accept="image/*"
             onChange={handleScreenshotUpload}
-            className="w-full border p-2 rounded"
+            className="w-full border border border-orange-600 p-2 rounded"
           />
           {uploading && (
             <p className="text-gray-500 text-sm mt-2">Uploading...</p>

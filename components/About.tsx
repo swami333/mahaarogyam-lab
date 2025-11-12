@@ -18,7 +18,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p>
-              <strong>Maha - Aarogyam</strong> started on 24th March 2000, at Pabal as "Komal Lab”. In the year 2000, in a rural area like Pabal, the Primary health center had the facility to test only malaria. We started the facility of testing blood and Urine which proved immensely beneficial for patients and medical professionals.
+              <strong>Maha - Aarogyam</strong> started on 24th March 2000, at Pabal. In the year 2000, in a rural area like Pabal, the Primary health center had the facility to test only malaria. We started the facility of testing blood and Urine which proved immensely beneficial for patients and medical professionals.
             </p>
             <p>
               We were the first in a rural area like Pabal to automate our testing facility with the addition of a Cell Counting machine. The Cell Counter increased the speed and accuracy of our test results. This reliability resulted in the growth of our business.

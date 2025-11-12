@@ -26,15 +26,16 @@ const Locations: React.FC = () => {
 
                 <div className="grid md:grid-cols-2 gap-8">
                     <div className="bg-white p-8 rounded-lg shadow-lg">
-                        <h3 className="text-2xl font-bold mb-4 text-gray-800">Main Testing Facilities</h3>
+                        <h3 className="text-2xl font-bold mb-4 text-gray-800">Main Processing Lab and Shikrapur Branch </h3>
                         <div className="space-y-4">
                             <div>
                                 <h4 className="font-semibold text-lg text-orange-700">Shikrapur (Main Lab)</h4>
-                                <p className="text-gray-600">Pune-Nagar Highway, Next to Kanifnath Temple, Maltan Phata, Shikrapur, Tal. Shirur, Dist Pune - 412 208.</p>
+                                <p className="text-gray-600">Above Swami Samarth Hospital,Behind Mangalmurti  Medical, Opp to SBI Bank, Pabal Road, Shikrapur, Tal.Shirur,Dist.Pune-412208.<br/><strong>Tel.</strong>9860 132 901, 9860 132 902</p>
                             </div>
                             <div>
-                                <h4 className="font-semibold text-lg text-orange-700">Pabal</h4>
-                                <p className="text-gray-600">Maha-Aarogyam Lab, for all tests.</p>
+                                <h4 className="font-semibold text-lg text-orange-700">Pabal Branch</h4>
+                                <p className="text-gray-600">Loni Road, Nageshwar Chowk, A/p Pabal,Tal.Shirur,Dist.Pune-412 403.<br/>
+                                <strong>Tel.</strong>9860 135 180, 9860 135 189</p>
                             </div>
                         </div>
                     </div>
@@ -46,6 +47,7 @@ const Locations: React.FC = () => {
                              <p className="flex items-center"><LocationIcon /> Loni (Dhamni)</p>
                              <p className="flex items-center"><LocationIcon /> Chakan</p>
                              <p className="flex items-center"><LocationIcon /> Pimpri-Chinchwad</p>
+                             <p className="flex items-center"><LocationIcon />Pargaon</p>
                          </div>
                          <div className="mt-6 border-t pt-6">
                              <h4 className="text-xl font-bold mb-4 text-gray-800">Get in Touch</h4>
