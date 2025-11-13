@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ onBookNow }) => {
               <a key={link.name} href={link.href} onClick={(e) => handleNavClick(e, link.href)} className="text-gray-600 hover:text-orange-600 transition duration-300 font-medium">
                 {link.name}
               </a>
-            ))}.
+            ))}
              <button onClick={() => onBookNow()} className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300 text-sm">
                 Book Now
             </button>
@@ -88,3 +88,4 @@ const Header: React.FC<HeaderProps> = ({ onBookNow }) => {
 };
 
 export default Header;
+

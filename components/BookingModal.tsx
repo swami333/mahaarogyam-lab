@@ -617,7 +617,7 @@ Thank you!
           <input
             type="email"
             name="email"
-            placeholder="Email (optional)"
+            placeholder="Email"
             value={formData.email}
             onChange={(e) =>
               setFormData((p) => ({ ...p, email: e.target.value }))
