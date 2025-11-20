@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
               Your trusted partner in healthcare and diagnostics. Providing accurate and timely results with state-of-the-art technology.
             </p>
             <p className="text-gray-400"><strong>Director:</strong> Mr. Somnath Khedekar</p>
-     
+
           </div>
 
           {/* Quick Links */}
@@ -107,7 +107,9 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-start">
                 <span className="mr-2 mt-1">📍</span>
-                <span>Shikrapur, Maltan Phata, Pune-Nagar Highway, Pune - 412 208</span>
+                <span>Shikrapur (Main Lab)
+                  Above Swami Samarth Hospital,Behind Mangalmurti Medical, Opp to SBI Bank, Pabal Road, Shikrapur, Tal.Shirur,Dist.Pune-412208.
+                </span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">📞</span>

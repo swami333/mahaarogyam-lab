@@ -75,7 +75,7 @@ const Header: React.FC<HeaderProps> = ({ onBookNow }) => {
     <div className="relative h-96 bg-cover bg-center" style={{backgroundImage: "url('https://picsum.photos/seed/heroimage/1920/1080')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white p-4">
-                <h1 className="text-4xl md:text-6xl font-bold">Healthcare & Speciality Laboratory</h1>
+                <h1 className="text-4xl md:text-6xl font-bold">Healthcare  Laboratory</h1>
                 <p className="mt-4 text-xl">Accurate. Reliable. Fast.</p>
                 <a href="#packages" onClick={(e) => handleNavClick(e, '#packages')} className="mt-8 inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition duration-300">
                     View Health Packages
