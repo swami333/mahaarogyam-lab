@@ -658,7 +658,7 @@ Thank you!
           </p>
           <div className="flex flex-col items-center border p-4 rounded-lg">
             <img
-              src="/qr.png"
+              src="/Qr.png"
               alt="QR"
               className="w-40 h-40 object-contain mb-2"
             />
