@@ -72,8 +72,8 @@ export const HEALTH_PACKAGES: HealthPackage[] = [
   {
     name: 'Maha Aaro Health Profile',
     totalTests: 76,
-    price: 3499,
-    discountedPrice:8460,
+    price: 8460,
+    discountedPrice:3499,
     categories: [
       { name: 'Vitamin D', details: 'Evaluates Bone Health' },
       { name: 'Vitamin B12', details: 'Eval. Nerve Damage' },
